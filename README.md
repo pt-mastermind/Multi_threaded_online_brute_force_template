@@ -26,5 +26,5 @@ python3 BruteForce.py -h
 To run the script (Example) :
 
 ```
-python3 BruteForce.py -u <username> --wordlist <wordlist path>" + "| example: BruteForce.py -u bf@pt-mastermind.info -url https://127.0.0.1/login.php --wordlist wordlists/pass.txt
+python3 BruteForce.py -u bf@pt-mastermind.info -url https://127.0.0.1/login.php --wordlist wordlists/pass.txt
 ```

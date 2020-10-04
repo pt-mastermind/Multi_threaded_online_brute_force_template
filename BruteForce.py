@@ -28,7 +28,7 @@ def Banner():
 
 
 def args():
-    parser = argparse.ArgumentParser(description="python3 BruteForce.py -u <username> --wordlist <wordlist path>" + "| example: BruteForce.py -u bf@pt-mastermind.com --url https://127.0.0.1/login.php --wordlist wordlists/pass.txt")
+    parser = argparse.ArgumentParser(description="example: BruteForce.py -u bf@pt-mastermind.com --url https://127.0.0.1/login.php --wordlist wordlists/pass.txt")
     parser.add_argument("-u",help="user name \ email")
     parser.add_argument("--url",help="URL address")
     parser.add_argument("--wordlist",help="path to your wordlist")
